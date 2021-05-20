@@ -1,0 +1,58 @@
+.banner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    mask-image: linear-gradient(to top, transparent 35%, black 65%);
+    z-index: 4;
+}
+.arrow{
+    position: absolute;
+    top: 20%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 7;
+}
+
+.left-a{
+    left: 30px;
+}
+
+.right-a{
+    right: 30px;
+}
+
+.banner__image{
+    width: 100%;
+    height: 86vh;
+    object-fit: cover;
+}
+
+.trans{
+    animation: trans 0.4s ease-in-out infinite;
+    transition: all 0.3s;
+}
+
+@keyframes trans{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(100vw);
+    }
+}
+
+
+.transleft{
+    animation: transleftanim 0.4s ease-in-out infinite;
+    transition: all 0.3s;
+}
+
+@keyframes transleftanim{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100vw);
+    }
+}

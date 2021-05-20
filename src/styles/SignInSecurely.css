@@ -1,0 +1,28 @@
+.ship__image{
+    background-color: red;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.signIn__securely{
+    background-color: #fff;
+    height: 160px;
+}
+
+.signIn__securely > h2{
+    padding: 20px 0px 20px 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.singIn__securely-btn{
+    width: 90%;
+    padding: 7px 0px;
+    background: rgb(246,221,160);
+    background: linear-gradient(180deg, rgba(246,221,160,1) 0%, rgba(241,195,80,1) 100%);
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+    margin-left: 5%;
+}

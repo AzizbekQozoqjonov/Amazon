@@ -1,0 +1,31 @@
+.upper__product{
+    background-color: #fff;
+}
+
+.upper__product > h3{
+    padding: 20px 0px 0px 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.upperProduct__image{
+    width: 90%;
+    height: 70%;
+    margin: 20px auto;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.product__link{
+    text-decoration: none;
+    color: rgb(88, 133, 255);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 20px 0px 0px 20px;
+}
+
+.product__link:hover{
+    text-decoration: underline;
+    color: rgb(170, 116, 15);
+}
